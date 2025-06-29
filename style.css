@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tiktok-live-container {
+  width: 360px;
+  background-color: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.live-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #222;
+}
+
+.profile-pic {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.user-info p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.follow-btn {
+  margin-left: auto;
+  background-color: #ff2d55;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.follow-btn:hover {
+  background-color: #ff174d;
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+  background-color: #000;
+}
+
+.live-comments {
+  padding: 10px;
+  background-color: #1a1a1a;
+  font-size: 14px;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.live-comments p {
+  margin: 5px 0;
+}
+
+.cta-bottom {
+  text-align: center;
+  background-color: #ff2d55;
+  padding: 12px;
+}
+
+.cta-bottom a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
